@@ -65,7 +65,8 @@ class WindowCapture:
 # Execute this cell to generate a dataset of images for the specified window.
 
 # window_name = "YOUR_GAME_WINDOW_NAME_HERE"
-window_name = "RuneLite - Hohenheim_x"
+# window_name = "RuneLite - Hohenheim_x"
+window_name = "CABAL"
 
 wincap = WindowCapture(window_name)
 wincap.generate_image_dataset()
